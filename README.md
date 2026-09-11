@@ -105,6 +105,10 @@ All principle descriptions are original and written from the primary research, w
 
 For a beautifully designed introduction to these ideas, read Jon Yablonski's [Laws of UX](https://lawsofux.com/) and his book of the same name.
 
+## Built by
+
+ux-lint is built and maintained by [Walma](https://walma.ai), an AI engineering studio in Stockholm.
+
 ## License
 
-MIT
+MIT © [Walma Labs](https://walma.ai)
