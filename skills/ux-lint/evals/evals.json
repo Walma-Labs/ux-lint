@@ -1,0 +1,23 @@
+{
+  "skill_name": "ux-lint",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Review the landing page in examples/bad-landing.html for usability problems. We're getting lots of traffic but almost nobody starts a trial.",
+      "expected_output": "Runs measure.mjs on the file, reports blockers for tiny header icons (Fitts), overlay covering the form and blocking the Send button (Flow/Selective Attention), competing primary CTAs (Von Restorff), placeholder-only and mis-grouped labels (Working Memory, Proximity), horizontal overflow on mobile, and slow Send interaction (Doherty). Each finding has location, evidence and a code fix. Does not flag the 12-item nav under Miller's Law.",
+      "files": ["examples/bad-landing.html"]
+    },
+    {
+      "id": 2,
+      "prompt": "quick ux check on examples/good-landing.html before I merge",
+      "expected_output": "Check mode table, nearly all pass, at most the minor 24px checkbox row note, verdict 'ship'. Short.",
+      "files": ["examples/good-landing.html"]
+    },
+    {
+      "id": 3,
+      "prompt": "Here's our signup form component (React + Tailwind). Is it usable? We don't have it running anywhere.",
+      "expected_output": "Static review (states that nothing was measured), checks labels, input types/autocomplete, feedback on submit, error placement, required fields, and gives Tailwind diffs. Uses evidence labels correctly.",
+      "files": []
+    }
+  ]
+}

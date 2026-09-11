@@ -1,0 +1,24 @@
+<!doctype html><html lang="en"><head><meta name="viewport" content="width=device-width,initial-scale=1"><title>Good page</title>
+<style>
+*{box-sizing:border-box}body{font:16px/1.5 system-ui,sans-serif;margin:0;color:#111}
+header{display:flex;justify-content:space-between;align-items:center;padding:8px 16px}
+header nav{display:flex;gap:8px}
+header a{display:inline-flex;align-items:center;min-height:44px;padding:0 12px;color:#111}
+main{max-width:640px;margin:0 auto;padding:16px}
+.primary{background:#2563eb;color:#fff;border:0;min-height:48px;padding:0 24px;font-size:16px;border-radius:8px}
+.secondary{background:transparent;color:#2563eb;border:1px solid #2563eb;min-height:48px;padding:0 24px;font-size:16px;border-radius:8px}
+.field{margin-bottom:24px}.field label{display:block;margin-bottom:4px}
+input{font-size:16px;min-height:48px;width:100%;padding:8px}
+</style></head><body>
+<header><a href="/">Acme</a><nav aria-label="Main"><a href="#p">Product</a><a href="#pr">Pricing</a><a href="#l">Log in</a></nav></header>
+<main>
+<h1>Ship faster</h1>
+<p>Short intro that explains the value in two sentences. Read the <a href="#docs">docs</a> for details.</p>
+<button class="primary">Start free trial</button> <button class="secondary">Book a demo</button>
+<form>
+ <div class="field"><label for="n">Name</label><input id="n" name="name" autocomplete="name"></div>
+ <div class="field"><label for="e">Email</label><input id="e" name="email" type="email" autocomplete="email"></div>
+ <div class="field"><label><input type="checkbox" name="news" style="min-height:auto;width:auto"> Send me product news</label></div>
+ <button class="primary" type="submit">Create account</button>
+</form>
+</main></body></html>

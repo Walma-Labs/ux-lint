@@ -1,0 +1,4 @@
+.DS_Store
+node_modules/
+ux-lint.json
+ux-lint-shots/
